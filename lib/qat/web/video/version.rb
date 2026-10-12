@@ -7,7 +7,7 @@ module QAT
     #@since 6.0.0
     module Video
       # Represents QAT-Web-Video's version
-      VERSION = '9.0.0'
+      VERSION = '9.0.1'
     end
   end
 end

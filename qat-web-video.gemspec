@@ -2,20 +2,20 @@
 
 Gem::Specification.new do |gem|
   gem.name        = 'qat-web-video'
-  gem.version     = '9.0.0'
+  gem.version     = '9.0.1'
   gem.summary     = %q{QAT-Web-Video is a screen recorder for Web testing evidences}
   gem.description = <<-DESC
   QAT-Web-Video is a screen recorder for Web testing evidences, with support for various browsers and webdrivers.
   DESC
   gem.email    = 'qatoolkit@readinessit.com'
-  gem.homepage = 'https://gitlab.readinessit.com/qa-toolkit/qat-web-video'
+  gem.homepage = 'https://github.com/Ritain-io/qat-web-video'
 
   gem.authors = ['QAT']
   gem.license = 'Nonstandard'
 
   gem.files = Dir.glob('{lib}/**/*')
 
-  gem.required_ruby_version = '~> 3.2.2'
+  gem.required_ruby_version = '~> 3.2'
 
   # Development dependencies
   gem.add_development_dependency 'headless', '~> 2.3.1'
@@ -28,6 +28,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'webrick', '~> 1.8.1'
 
   # GEM dependencies
-  gem.add_dependency 'qat-web', '~> 9.0.3'
-
+  gem.add_dependency 'qat-web', '~> 9.0'
 end
